@@ -1,0 +1,65 @@
+calibre 2.27  isfrozen: True is64bit: False
+Windows-7-6.1.7601-SP1 Windows ('32bit', 'WindowsPE')
+32bit process running on 64bit windows
+('Windows', '7', '6.1.7601')
+Python 2.7.9
+Windows: ('7', '6.1.7601', 'SP1', 'Multiprocessor Free')
+Successfully initialized third party plugins: Marvin XD && iOS reader applications
+USB devices on system:
+[u'usb\\root_hub20&vid8086&pid1c26&rev0004',
+ u'usb\\root_hub20&vid8086&pid1c2d&rev0004',
+ u'usb\\vid_03f0&pid_311d&rev_0001',
+ u'usb\\vid_0461&pid_4e35&rev_0100',
+ u'usb\\vid_04ca&pid_0022&rev_0109',
+ u'usb\\vid_05ac&pid_12ab&rev_0401',
+ u'usb\\vid_05ac&pid_12ab&rev_0401&mi_00',
+ u'usb\\vid_0a05&pid_7211&rev_0100',
+ u'usb\\vid_138a&pid_003c&rev_0086',
+ u'usb\\vid_1bcf&pid_2805&rev_2017',
+ u'usb\\vid_1bcf&pid_2805&rev_2017&mi_00',
+ u'usb\\vid_24ae&pid_2000&rev_1001',
+ u'usb\\vid_24ae&pid_2000&rev_1001&mi_00',
+ u'usb\\vid_24ae&pid_2000&rev_1001&mi_01',
+ u'usb\\vid_8087&pid_0024&rev_0000',
+ u'usb\\vid_8087&pid_0024&rev_0000']
+Traceback (most recent call last):
+  File "site-packages\calibre\devices\scanner.py", line 85, in __call__
+DriveError: No removable drives found
+Drives detected:
+
+No disabled plugins
+Looking for devices of type: MTP_DEVICE
+List of WPD PNP ids:
+[u'\\\\?\\usb#vid_05ac&pid_12ab&mi_00#0#{6ac27878-a6fa-4155-ba85-f98f491d4f33}']
+MTP device: \\?\usb#vid_05ac&pid_12ab&mi_00#0#{6ac27878-a6fa-4155-ba85-f98f491d4f33}
+{'device_version': u'8.3',
+ 'friendly_name': u'Apple iPad',
+ 'has_bulk_properties': True,
+ 'has_storage': True,
+ 'manufacturer_name': u'Apple Inc.',
+ 'model_name': u'Apple iPad',
+ 'protocol': u'MTP: 1.00',
+ 'serial_number': u'DMQLL5KMFK10',
+ 'storage': [{'capacity': 15854469120L,
+              'capacity_objects': 0L,
+              'description': u'Internal Storage',
+              'filesystem': u'DCF',
+              'free_objects': 3161L,
+              'free_space': 4742725632L,
+              'id': u's10001',
+              'name': u'Internal Storage',
+              'rw': True,
+              'type': u'fixed_ram'}],
+ 'type': 'unknown'}
+Not a suitable MTP device, ignoring
+
+No suitable MTP devices found
+ 
+Looking for devices of type: SMART_DEVICE_APP
+All IP addresses {'{846EE342-7039-11DE-9D20-806E6F6E6963}': [{'broadcast': '127.255.255.255', 'netmask': '255.0.0.0', 'addr': '127.0.0.1'}], '{A3C1AEA1-A1FB-48D9-B3AF-3F32E409390C}': [{'addr': '169.254.145.220'}], '{9E97625B-3203-454D-8152-C9A10A8E9C83}': [{'broadcast': '192.168.0.255', 'netmask': '255.255.255.0', 'addr': '192.168.0.117'}], '{2B07DA37-0485-459C-BB0D-59B3C21CC34B}': [{'addr': '169.254.216.226'}], '{FB341710-0A27-43B2-B118-4A7E07F7D6A1}': [{'broadcast': '192.168.0.255', 'netmask': '255.255.255.0', 'addr': '192.168.0.130'}]}
+No device is connected
+ 
+Looking for devices...
+	u'usb\\vid_05ac&pid_12ab&rev_0401'
+ 
+Devices possibly connected: None 
